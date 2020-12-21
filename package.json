@@ -1,0 +1,22 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "lab task for computer graphics",
+  "main": "index.js",
+  "scripts": {
+    "pack": "NODE_ENV=production rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "Nikita Rogalenko",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.34.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "three": "^0.123.0",
+    "three-orbitcontrols": "^2.110.3",
+    "three.js": "^0.77.1"
+  }
+}
